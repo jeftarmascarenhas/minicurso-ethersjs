@@ -1,6 +1,13 @@
 # Minicurso Ethers.js
 
-Curso de introdução ao Ethers.js
+No Minicurso Ethers.js você aprenderá os conceitos
+básicos de uma das libs mais utilizadas em aplicações web3.
+
+Tudo com na prática, no final do curso você desenvolverá um Dapp FullStack com Solidity, Hardhat.js, Ethers.js e React.
+
+![Minicurso Ethers.js](./doc//images/minicurso-ethersjs.png)
+
+[Acesso ao minicurso no YouTube]()
 
 ## O que vamos ver nesse mini curso?
 
