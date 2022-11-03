@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ethers.js - Metamask como provedor</title>
+    <script
+      src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+      type="application/javascript"
+    ></script>
+  </head>
+  <body>
+    <h1>Ethers.js - Metamask como provedor</h1>
+    <button id="conn">Connect wallet</button>
+    <p><strong>address:</strong> <span id="address" pro>empty</span></p>
+    <p><strong>Balance:</strong> <span id="balance">0</span></p>
+
+    <script>
+      // Usaremos o Metamask como provedor de acesso a rede do Ethereum
+      console.log("Metamask: ", window.ethereum);
+      console.log("ethers: ", ethers);
+
+      const provider = new ethers.ethers.providers.Web3Provider(
+        window.ethereum
+      );
+      console.log("provider: ", provider);
+
+      const connBtn = document.querySelector("#conn");
+      const balanceField = document.querySelector("#balance");
+      const addressField = document.querySelector("#address");
+
+      connBtn.addEventListener("click", async () => {
+        await provider.send("eth_requestAccounts", []);
+        const network = await provider.getNetwork();
+        console.log("network: ", network);
+
+        const signer = provider.getSigner();
+
+        const isConnected = signer !== undefined;
+        console.log("isConnected: ", isConnected);
+
+        const balanceProvider = await provider.getBalance("jeftar.eth");
+        console.log(
+          "balanceProvider: ",
+          ethers.utils.formatEther(balanceProvider)
+        );
+        if (isConnected) {
+          const balance = await signer.getBalance();
+          const address = await signer.getAddress();
+          console.log("signer: ", signer);
+
+          connBtn.textContent = "connected";
+          balanceField.textContent = ethers.utils.formatEther(balance);
+          addressField.textContent = address;
+        }
+      });
+    </script>
+  </body>
+</html>
