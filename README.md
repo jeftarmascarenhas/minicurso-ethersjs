@@ -12,7 +12,7 @@ Tudo com na prática, no final do curso você desenvolverá um Dapp FullStack co
 ## O que vamos ver nesse mini curso?
 
 - Introdução ao Ethers.js
-- Provider e Signer a Ethers.js
+- Provider e Signer no Ethers.js
 - API Provider a Ethers.js
 - Transferência | Ethers.js
 - Criação smart contract com Hardhat.js | Ethers.js
