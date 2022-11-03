@@ -4,7 +4,7 @@ Curso de introdução ao Ethers.js
 
 ## O que vamos ver nesse mini curso?
 
-- Introdução a Ethers.js
+- Introdução ao Ethers.js
 - Provider e Signer a Ethers.js
 - API Provider a Ethers.js
 - Transferência | Ethers.js
