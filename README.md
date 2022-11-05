@@ -29,6 +29,12 @@ Tudo com na prática, no final do curso você desenvolverá um Dapp FullStack co
 - [ ] Dapp de Doação fullstack Frontend React | Ethers.js
 - [ ] Dapp de Doação fullstack integrando e finalizando | Ethers.js
 
+## Indicações de livros
+
+São livros que vou está listando para acrescentar no aprendizado.
+
+- [Blockchain Para Negócios](https://amzn.to/3UrackB)
+
 ## O que é Ethers.js?
 
 O Ethers.js pretender uma biblioteca compact para interação com o Blockchain Ethereum
