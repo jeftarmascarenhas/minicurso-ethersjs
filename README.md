@@ -11,23 +11,23 @@ Tudo com na prática, no final do curso você desenvolverá um Dapp FullStack co
 
 ## O que vamos ver nesse mini curso?
 
-- Introdução ao Ethers.js
-- Provider e Signer no Ethers.js
-- API Provider a Ethers.js
-- Criando Wallet | Ethers.js
-- Transferência | Ethers.js
-- Utils no Ethers.js | Ethers.js
-- Criação smart contract com Hardhat.js | Ethers.js
-- Interação com smart contract | Ethers.js
-- Análise de resposta de transações | Ethers.js
-- Análise de métodos para smart contract | Ethers.js
-- Escutando Eventos de smart contract | Ethers.js
-- Dapp de Doação fullstack instalação e configurações | Ethers.js
-- Dapp de Doação fullstack escrevendo smart contract | Ethers.js
-- Dapp de Doação fullstack testando smart contract | Ethers.js
-- Dapp de Doação fullstack deploy smart contract | Ethers.js
-- Dapp de Doação fullstack Frontend React | Ethers.js
-- Dapp de Doação fullstack integrando e finalizando | Ethers.js
+- [x] [Introdução ao Ethers.js](https://youtu.be/seym2JW_0Bg)
+- [x] [Provider e Signer no Ethers.js](https://youtu.be/ClJVw0Avkz4)
+- [ ] API Provider a Ethers.js
+- [ ] Criando Wallet | Ethers.js
+- [ ] Transferência | Ethers.js
+- [ ] Utils no Ethers.js | Ethers.js
+- [ ] Criação smart contract com Hardhat.js | Ethers.js
+- [ ] Interação com smart contract | Ethers.js
+- [ ] Análise de resposta de transações | Ethers.js
+- [ ] Análise de métodos para smart contract | Ethers.js
+- [ ] Escutando Eventos de smart contract | Ethers.js
+- [ ] Dapp de Doação fullstack instalação e configurações | Ethers.js
+- [ ] Dapp de Doação fullstack escrevendo smart contract | Ethers.js
+- [ ] Dapp de Doação fullstack testando smart contract | Ethers.js
+- [ ] Dapp de Doação fullstack deploy smart contract | Ethers.js
+- [ ] Dapp de Doação fullstack Frontend React | Ethers.js
+- [ ] Dapp de Doação fullstack integrando e finalizando | Ethers.js
 
 ## O que é Ethers.js?
 
