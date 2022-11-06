@@ -13,7 +13,7 @@ Tudo com na prática, no final do curso você desenvolverá um Dapp FullStack co
 
 - [x] [Introdução ao Ethers.js](https://youtu.be/seym2JW_0Bg)
 - [x] [Provider e Signer no Ethers.js](https://youtu.be/ClJVw0Avkz4)
-- [ ] API Provider a Ethers.js
+- [x] [API Provider a Ethers.js](https://youtu.be/iXuFhWAlFl0)
 - [ ] Criando Wallet | Ethers.js
 - [ ] Transferência | Ethers.js
 - [ ] Utils no Ethers.js | Ethers.js
