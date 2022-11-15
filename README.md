@@ -15,7 +15,7 @@ Tudo com na prática, no final do curso você desenvolverá um Dapp FullStack co
 - [x] [Provider e Signer no Ethers.js](https://youtu.be/ClJVw0Avkz4)
 - [x] [API Provider a Ethers.js](https://youtu.be/iXuFhWAlFl0)
 - [x] [Criando Wallet | Ethers.js](https://youtu.be/bOd5WpU7h7E)
-- [ ] Transferência | Ethers.js
+- [x] [Transação(Transferência) | Ethers.js](https://youtu.be/NWezFwf8TUk)
 - [ ] Utils no Ethers.js | Ethers.js
 - [ ] Criação smart contract com Hardhat.js | Ethers.js
 - [ ] Interação com smart contract | Ethers.js
