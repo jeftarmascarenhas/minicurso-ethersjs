@@ -14,6 +14,7 @@ const main = async () => {
   const signer = wallet.connect(provider);
   const signerAddress = await signer.getAddress();
   const gasPrice = await signer.getGasPrice();
+  // Hexlify convert string, objets e arrays em uma string hexadecimal
   const gasLimit = ethers.utils.hexlify(21000);
   const nonce = await signer.getTransactionCount();
   const value = ethers.utils.parseEther("0.00001");
