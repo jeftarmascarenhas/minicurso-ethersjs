@@ -17,17 +17,12 @@ Tudo com na prática, no final do curso você desenvolverá um Dapp FullStack co
 - [x] [Criando Wallet | Ethers.js](https://youtu.be/bOd5WpU7h7E)
 - [x] [Transação(Transferência) | Ethers.js](https://youtu.be/NWezFwf8TUk)
 - [x] [Utils no Ethers.js | Ethers.js](https://youtu.be/ddFiyIZM2Hg)
-- [ ] Criação smart contract com Hardhat.js | Ethers.js
-- [ ] Interação com smart contract | Ethers.js
-- [ ] Análise de resposta de transações | Ethers.js
-- [ ] Análise de métodos para smart contract | Ethers.js
-- [ ] Escutando Eventos de smart contract | Ethers.js
-- [ ] Dapp de Doação fullstack instalação e configurações | Ethers.js
-- [ ] Dapp de Doação fullstack escrevendo smart contract | Ethers.js
-- [ ] Dapp de Doação fullstack testando smart contract | Ethers.js
-- [ ] Dapp de Doação fullstack deploy smart contract | Ethers.js
-- [ ] Dapp de Doação fullstack Frontend React | Ethers.js
-- [ ] Dapp de Doação fullstack integrando e finalizando | Ethers.js
+- [x] [#01 Dapp Crypto Donation - O que você vai aprender | Ethers.js](https://youtu.be/xUscIEKVCxQ)
+- [x] [#02 Dapp Crypto Donation - Configurando Hardhatjs | Ethers.js](https://youtu.be/dfJZG1cxBAY)
+- [x] [#03 Dapp Crypto Donation - Criando contrato com Solidity | Ethers.js](https://youtu.be/d21fXoaa9p4)
+- [x] [#04 Dapp Crypto Donation - Teste Unitário do Smart Contract | Ethers.js](https://youtu.be/dtKwvAborwA)
+
+[Todas o código do dApp Crypto](https://github.com/jeftarmascarenhas/donation-full-dapp)
 
 ## Indicações de livros
 
